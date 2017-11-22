@@ -1,0 +1,40 @@
+#back-top {
+	position: fixed !important;
+	bottom: 30px!important;
+	margin-left: -150px!important;
+}
+#back-top a {
+	width: 108px!important;
+	display: block!important;
+	text-align: center!important;
+	font: 11px/100% Arial, Helvetica, sans-serif!important;
+	text-transform: uppercase!important;
+	text-decoration: none!important;
+	color: #bbb!important;
+	/* background color transition */
+	-webkit-transition: 1s!important;
+	-moz-transition: 1s!important;
+	transition: 1s!important;
+}
+#back-top a:hover {
+	color: #000!important;
+}
+/* arrow icon (span tag) */
+#back-top span {
+	width: 108px!important;
+	height: 50px!important;
+	display: block!important;
+	margin-bottom: 7px!important;
+	background:url(../images/UP.png) center center no-repeat!important;
+	/* rounded corners */
+	-webkit-border-radius: 15px!important;
+	-moz-border-radius: 15px!important;
+	border-radius: 15px!important;
+	/* background color transition */
+	-webkit-transition: 1s!important;
+	-moz-transition: 1s!important;
+	transition: 1s!important;
+}
+#back-top a:hover span {
+	background:url(../images/uphover.png) center center no-repeat!important;
+}

@@ -1,0 +1,27 @@
+UL#menu3 { visibility: hidden; 	list-style-type: square; }
+
+#menu3 A { display: block; line-height: 10pt; }
+#menu3 A:hover, #menu3 A.unfolded, #menu3 A.unfolded:hover { color: #FFFF99; background-color: transparent; }
+
+#menu3 LI { position: relative; margin: 0px; padding-bottom:15px; }
+
+#menu3 LI UL {
+	display: none;
+	position: absolute;
+	top: 0px;
+	border: 1px solid #000000;
+	padding: 1px;
+	list-style-type: none;
+	color: #FFFFFF;
+	background-color: #6e3389 !important;
+}
+
+#menu3 LI UL { left: 120px; width:150px; height:auto; z-index: 999; border-radius:3px; }
+ #menu3 LI UL { left: 90px; }
+
+#menu3 LI UL LI UL { left: 90px; z-index: 200; }
+ #menu3 LI UL LI UL { left: 75px; }
+
+#menu3 LI UL LI, #menu3 LI UL LI UL LI { 	margin: 0px; padding: 1px 2px 1px 2px; }
+ #menu3 LI UL LI,  #menu3 LI UL LI UL LI { padding: 0px 2px 0px 2px; }
+ #menu3 LI UL LI A, #menu3 LI UL LI UL LI A {padding: 6px 0px; }

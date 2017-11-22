@@ -1,0 +1,16 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 41.143.56.90
+deny from 105.154.65.147
+RewriteCond %{HTTP_HOST} ^maligai\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.maligai\.net$
+RewriteRule ^/?$ "https\:\/\/web\.facebook\.com\/TrichyMaligai" [R=302,L]
+
